@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt|Shadows+Into+Light|Cedarville+Cursive');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgba(0, 0, 0, 0.834);
+}
+section.navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    color: #fff;
+}
+
+.logo {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 48px;
+    color: burlywood;
+}
+
+ul.nav {
+    display: flex;
+    gap: 58px;
+    list-style: none;
+    font-size: 18px;
+}
+
+button.cvdownload {
+    padding: 20px 35px 20px 35px;
+    color: #fff;
+    background: burlywood;
+    border: transparent;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+a.imalink {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins';
+  }
+  
+.imalink {
+    display: inline-block;
+    padding-bottom: 0.65rem; /* defines the space between text and underline */
+    position: relative;
+  }
+  
+.imalink::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: burlywood;
+    transition: width 0.40s ease-out;
+}
+.imalink:hover::before {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+
+.headerimage img {
+    max-width: 400px;
+}
+.headertext {
+    font-family: 'Poppins';
+}
+.headertext h1 {
+    font-size: 64px;
+}
+button.contactme {
+    padding: 10px 45px 10px 45px;
+    background: transparent;
+    border: solid 2px;
+    color: burlywood;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.button2 {
+    padding-top: 50px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.fa-instagram:hover {
+    color: burlywood;
+    transition-duration: 1s;
+}
+.fa-twitter:hover {
+    color: burlywood;
+    transition-duration: 1s;
+}
+.fa-github:hover {
+    color: burlywood;
+    transition-duration: 1s;
+}
+.fa-linkedin:hover {
+    color: burlywood;
+    transition-duration: 1s;
+}
+
+.headertext h1 span {
+    color: burlywood;
+}
+p.details {
+    font-size: 18px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+section.about {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+    color: #fff;
+}
+
+.aboutheader {
+    text-align: center;
+    color: #fff;
+    padding-top: 300px;
+    font-size: 40px;
+    font-family: 'Poppins';
+}
+
+.description {
+    line-height: 1.9;
+    font-size: 20px;
+    color: #ccc;
+    font-family: 'Poppins';
+}
+
+hr.horizon {
+    transform: rotate(90deg);
+    width: 219px;
+    height: 4px;
+    background: burlywood;
+    border: transparent;
+}
+
+
+.aboutimage {
+    padding-right: 380px;
+}
+
+.history {
+    padding-top: 80px;
+}
+
+.abouticons {
+    display: flex;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.portfolio img {
+    max-width: 600px;
+    border-radius: 7px;
+}
+
+.portfolio2 img {
+    max-width: 600px;
+    border-radius: 7px;
+}
+
+section.portfolio {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+section.portfolio2 {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.portfolioheader h2 {
+    color: #fff;
+    padding-top: 108px;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: lighter;
+}
+section.mainportfolio {
+    height: 600px;
+    padding-top: 132px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(220, 155, 70);
+  font-size: 36px;
+  font-family: 'Poppins';
+  font-weight: bolder;
+}
+.projectimage {
+    position: relative;
+    text-align: center;
+}
+
+.mainportfolio img {
+    filter: blur(1px);
+    -webkit-filter: blur(3.5px);
+    cursor: pointer;
+}
+
+.projectimage:hover {
+    font-size: 48px;
+}
+.projectimage img:hover {
+    height: 400px;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+section.footer {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background: burlywood;
+}
+
+section.mainportfolio {
+    height: 1100px;
+    padding-top: 132px;
+}
+
+input#name {
+    padding: 15px 292px 20px 25px;
+    border-radius: 10px;
+    border: transparent;
+}
+
+
+section.footer {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background: burlywood;
+    justify-content: center;
+    gap: 400px;
+    font-family: 'Poppins';
+}
+.contacts h2 {
+    font-size: 48px;
+    color: #fff;
+}
+.contacts span {
+    color: #000;
+}
+.contactbox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 150px;
+}
+
+button.submit {
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    border: solid 1px #000;
+    background: transparent;
+}
+.submitbtn {
+    padding-top: 20px;
+    padding-left: 500px;
+}
+
+.phoneicons {
+    line-height: 2.2;
+    padding-top: 40px;
+}
+
+.footericons {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+input#message {
+    padding: 15px 292px 150px 25px;
+    border-radius: 10px;
+    border: transparent;
+}
