@@ -28,7 +28,7 @@ As a user of the web app,you will be able to :
  * Access to internet
  ### Installation Process
  ****
-* Clone to thir repo : git clone
+* Clone to thir repo : git clone https://github.com/Danielgitau34/portfolio
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
